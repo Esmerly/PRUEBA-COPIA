@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --container-color: #5480a1;
+    --second-color: #78beec;
+    --text-color: #172317;
+    --bg-color:#ffffff;
+}
+
+
+section{
+    padding: 3rem o 2rem;
+}
+
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+    border-radius: 4px;
+    padding: 4px 10px;
+    
+
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.casa{
+    width: 100%;
+    min-height: 440px;
+    background: var(--container-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.hola{
+    display: contents;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.uno{
+    display: flex;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.descripcion{
+    font-size: medium;
+    line-height: 0.85rem;
+    margin: 10px 0 40px;
+    display: -webkit-box;
+    -webkit-line-clamp: 30;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+button{
+    background: var(--second-color);
+    color: var(--bg-color);
+    border-radius: 4px;
+    padding: 4px 10px;
+    border: white;
+    cursor: pointer;
+
+}
+
+.container-faq {
+    
+}
